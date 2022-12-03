@@ -1,0 +1,18 @@
+.header_container {
+	height: 50px;
+	width: 100%;
+	background-color: grey;
+	padding: 10px;
+}
+
+li {
+	position: relative;
+	padding-right: 3px;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+  justify-content: space-between;
+	padding-left: 0;
+}
