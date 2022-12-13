@@ -1,3 +1,4 @@
+import React from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCalendar } from "react-icons/im"
 import styles from "./Header.module.scss";
