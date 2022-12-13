@@ -5,20 +5,10 @@ import styles from "./Header.module.scss";
 export const Header = () => {
 	return (
 		<header>
-			<div className={styles.header_container}>
-				<div className={styles.header}>
-					<ul>
-						<li>
-							<GiHamburgerMenu />
-						</li>
-						<li>
-							<h3>To-Do Lisst</h3>
-						</li>
-						<li>
-							<ImCalendar />
-						</li>
-					</ul>
-				</div>
+			<div className={styles.header}>
+				<GiHamburgerMenu size={22} />
+				<h3>To-Do list</h3>
+				<ImCalendar size={22}/>
 			</div>
 		</header>
 	)

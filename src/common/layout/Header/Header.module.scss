@@ -1,18 +1,16 @@
-.header_container {
+.header {
+	display: flex;
+	box-sizing: border-box;
+	margin: auto;
 	height: 50px;
 	width: 100%;
-	background-color: grey;
-	padding: 10px;
+	background-color: gray;
+	padding: 0 32px;
+	align-items: center;
+	justify-content: space-between;
 }
 
-li {
-	position: relative;
-	padding-right: 3px;
+ h3 {
+	margin: 0;
 }
 
-ul {
-	list-style: none;
-	display: flex;
-  justify-content: space-between;
-	padding-left: 0;
-}
